@@ -1,9 +1,13 @@
 //Assignment#4
 
 //var heading ="Rules for naming JS variables"
-//document.write("<h1> Rules for naming JS variables </h1>")
-//var a ="Variable names can only contain "
-//document.write(a)
+document.write("<h1> Rules for naming JS variables </h1>")
+
+document.write("<br> Variable names can only contain,numbers,$ and For example:$my_1stVariable")
+document.write("<br> Variable must begin with a letter,$ or _ , For example:$name,_name or name")
+document.write("<br> Variable names are case sensitive")
+document.write("<br> Variable names should not be JS Keywords")
+
 
 
 
@@ -14,7 +18,7 @@
 var x = 3
 var y = 5
 var z = x + y
-document.write("Sum of 3 and 5 is " +z)
+document.write("<br><br>Sum of 3 and 5 is " +z)
 
 //Q2 subtraction of two variable
 
@@ -161,6 +165,17 @@ var age = maximumAge-currentAge
 var days = age*365
 var ripe = days*amountPerday
 document.write("<br><br>You will need " +ripe+ " chocolate chip to last you until the ripe old age of 65")
+
+// Assignment#6
+
+
+// Q1
+
+var a = 2
+var b = 1
+var result = --a - --b + ++b + b--
+document.write("<br><br>a = 2 <br> b = 1")
+document.write("<br><br>Result "+result)
 
 
 
