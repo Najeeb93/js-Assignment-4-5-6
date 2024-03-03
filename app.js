@@ -177,6 +177,12 @@ var result = --a - --b + ++b + b--
 document.write("<br><br>a = 2 <br> b = 1")
 document.write("<br><br>Result "+result)
 
+//Q2 Input a name from user &  greet the user.
+
+var user = prompt("Assalam u walikum")
+
+//Q3 
+
 
 
 
